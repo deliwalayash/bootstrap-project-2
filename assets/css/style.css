@@ -13,6 +13,8 @@
     --text-white:#ffffff;
     --text-primary:#111111;
     --transiton:all 0.33s linear;
+    --border-color: rgba(16, 16, 16, 0.10);
+    --secondary-color:#757575;
     
 }
 
@@ -271,6 +273,7 @@ html{
     padding: 11.5px 35px;
     font-weight: 700;
     background: transparent;
+    transition: var(--transiton);
 }
 
 .hero-content{
@@ -483,6 +486,169 @@ html{
     margin-bottom: 28px;
 }
 
+.icon img {
+    fill: #ef5046;
+    
+}
+
+.sasly-card-2{
+    padding: 20px;
+    background-color: var(--bg-white);
+    border: 1px solid var(--border-color);
+    border-radius: 10px;
+}
+
+.content-box-2 {
+    padding: 20px 20px 30px 20px;
+}
+
+.content h5 {
+    margin-bottom: 20px;
+    font-size: 20px;
+    line-height: 1;
+    font-weight: 700;
+}
+
+.thumbnail img {
+    width: 100%;
+    border-radius: 7px;
+    transform: scale(1);
+    transition: all 0.4s ease-in;
+}
+
+.thumbnail {
+    position: relative;
+    overflow: hidden;
+    border-radius: 7px;
+    max-height: 150px;
+}
+
+.hover-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(31, 31, 31, 0.65);
+    visibility: hidden;
+    opacity: 0;
+    transition: var(--transiton);
+}
+
+.icon-btn {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: var(--bg-primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-white);
+}
+.icon-btn i {
+
+    transform: rotate(-45deg);
+    font-size: 14px;
+}
+
+.sasly-card-2:hover .hover-overlay{
+    opacity: 1;
+    visibility: visible;
+}
+
+.sasly-card-2:hover .thumbnail img{
+    transform: scale(1.1);
+}
+
+.hover-content a{
+    text-decoration: none;
+}
+
+.pb-130 {
+    padding-bottom: 130px;
+}
+.pt-130 {
+    padding-top: 130px;
+}
+
+.light-grey{
+    color: var(--secondary-color);
+}
+
+.thumbnail-2{
+    transform: scale(1);
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.thumbnail-2 img{
+    border-radius: 7px;
+}
+
+.hover-overylay-2{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 0%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 7px;
+    border: 3px solid rgba(255, 255, 255, 0.3);
+    transition: var(--transiton);
+}
+
+.sasly-project-item:hover .hover-overylay-2{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* .thumbnail-2::after{
+    content: "";
+    position: absolute;
+    width: 200%;
+    height: 0%;
+    left: 50%;
+    top: 50%;
+    background-color: rgba(255, 255, 255, .3);
+    transform: translate(-50%, -50%) rotate(-45deg);
+    z-index: 1;
+    transition: var(--transiton);
+}
+
+.thumbnail-2:hover::after{
+    height: 250%;
+    transition: all 600ms linear;
+    background-color: transparent;
+} */
+
+
+.content-case-study{
+    padding-top: 30px;
+}
+
+.theme-btn-2:hover{
+    background-color: var(--bg-primary);
+    color: var(--text-white);
+    border: none;
+}
+
+.key-features-sb{
+    border-radius: 50px;
+    margin: 0 30px;
+    overflow: hidden;
+    
+}
+
+.feature-bg{
+    background-color: var(--text-primary);
+    padding: 130px 0 105px 0;
+}
 
 
 
