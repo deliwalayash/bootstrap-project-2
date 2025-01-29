@@ -449,7 +449,9 @@ html{
     line-height: 27px;
 }
 
-.section-content-box p{
+
+
+.color-grey{
     color:#696969 ;
 }
 
@@ -649,6 +651,143 @@ html{
     background-color: var(--text-primary);
     padding: 130px 0 105px 0;
 }
+
+.sasly-iconic-box{
+    background-color: #2F2F2F;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    display: flex;
+      align-items: flex-start;
+    padding: 30px 30px 25px;
+    border-radius: 10px
+}
+
+.check-icon{
+    flex: 0 0 auto;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex ;
+     
+        align-items: center;
+      
+        justify-content: center;
+        font-size: 14px;
+        color: var(--white-color);
+        border: 1px solid var(--bg-white);
+        margin-right: 30px;
+        color: white;
+        transition: var(--transiton);
+        
+    }
+
+    .sasly-content{
+        margin-top: -8px;
+    }
+
+   .sasly-content-title{
+    color: white;
+   }
+
+   .check-icon:hover{
+    background-color: var(--bg-primary);
+
+   }
+
+   .key-features-sb .section-image-box {
+    position: relative;
+    max-width: 630px;
+    min-height: 445px;
+    margin-left: auto;
+}
+
+.sasly-img img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.company-box{
+    position: absolute;
+    bottom: 0;
+    left: 20%;
+    max-width: 270px;
+    background-color: var(--bg-primary);
+    border-radius: 10px;
+    padding: 40px 30px 30px;
+    text-align: center;
+}
+
+.compant-box-title{
+    padding-top: 30px;
+    border-top: 1px solid var(--bg-white);
+    color: var(--text-white);
+    letter-spacing: -0.6px;
+    line-height: normal;
+    font-weight: 600;
+}
+
+.pb-80 {
+    padding-bottom: 80px;
+}
+.pt-55 {
+    padding-top: 55px;
+}
+
+.sasly-rating-box {
+    padding: 20px 50px 50px;
+    border-radius: 10px;
+    background-color: var(--bg-primary);
+}
+
+.text-box {
+    text-align: center;
+    border-bottom: 2px dashed var(--bg-white);
+    padding-bottom: 33px;
+    margin-bottom: 40px;
+}
+
+.rating-point {
+    font-size: 180px;
+
+    font-weight: 600;
+    line-height: 1;
+    letter-spacing: -10.8px;
+    color: var(--bg-white);
+}
+
+.text-box p {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: normal;
+    color: var(--bg-white);
+}
+
+.ri-star-fill{
+    color: white;
+    font-size: 22px;
+}
+
+ .author-box {
+    text-align: center;
+}
+
+.author-list {
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.author-box .author-list li img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid var(--bg-white);
+}
+
+.ml-10{
+    margin-left: -10px;
+}
+
+
 
 
 
