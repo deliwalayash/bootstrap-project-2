@@ -1,3 +1,10 @@
+@media (max-width:1450px){
+    .support{
+        display: none !important;
+    }
+
+}
+
 @media (max-width:1200px) {
 
     .header-top{
@@ -16,6 +23,7 @@
     .ri-menu-line{
         display: block;
     }
+   
 }
 
 @media (max-width:992px){
@@ -23,6 +31,39 @@
         display: none;
     }
 
+    .hero-content h1 span{
+        font-size: 100px;
+        align-items: center;
+    }
+
+    .sub-heading{
+        display: inline-block;
+
+    }
+.basdj{
+    text-align: center;
+}
+ .hero-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+
+ .hero-image{
+    position: static;
+ }
+
+ marquee{
+    display: none;
+ }
+
+ .back-to-top{
+    display: none;
+ }
+
+ .coptright-text{
+    text-align: center;
+ }
    
     
 }
