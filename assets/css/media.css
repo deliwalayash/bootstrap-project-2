@@ -1,0 +1,28 @@
+@media (max-width:1200px) {
+
+    .header-top{
+        display: none;
+        
+    }
+    .nav-inner-menu{
+        margin-top: 0px;
+    }
+    .header-navigation{
+        padding: 0;
+    }
+    .main-menu{
+        display: none !important;
+    }
+    .ri-menu-line{
+        display: block;
+    }
+}
+
+@media (max-width:992px){
+    .theme-btn{
+        display: none;
+    }
+
+   
+    
+}
