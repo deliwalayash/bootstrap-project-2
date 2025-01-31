@@ -23,9 +23,16 @@
 
     <link rel="stylesheet" href="./assets/css/media.css">
 
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+
 </head>
 
 <body>
+
+    <!-- preloader  -->
     <div class="preloader   ">
         <div class="loader">
             <img src="./assets/images/loader.png" alt="">
@@ -244,7 +251,7 @@
                 <div class="row">
                     <div class="col-xl-7">
 
-                        <div class="hero-content">
+                        <div class="hero-content animate__animated animate__backInLeft animate__delay-1s">
                             <div class="sub-heading mb-2">
                                 <i class="ri-arrow-right-up-line"></i>
                                 Business Landing Pages
@@ -261,7 +268,7 @@
                     <div class="col-xl-5">
                         <div class="hero-content">
                            
-                            <div class="hero-image ">
+                            <div class="hero-image animate__animated animate__backInRight animate__delay-1s">
                                 <img src="./assets/images/hero-img1.jpg" class="img-fluid" alt="">
 
                             </div>
@@ -286,9 +293,9 @@
                     BusinessLanding Pages Growth Method Analysis
                 </marquee>
                 <div class="container ">
-                    <div class=" helo">
+                    <div class="">
                         <div class="d-flex justify-content-center mb-3">
-                            <div class="what-we-do-btn">
+                            <div class="what-we-do-btn ">
                                 What We Do
                             </div>
                         </div>
@@ -1258,7 +1265,7 @@
         });
         $(window).on('load', function(event) {
           //===== Preloader
-          $('.preloader').delay(1900).fadeOut(1900);
+          $('.preloader').delay(200).fadeOut();
       })
     </script>
 </body>

@@ -15,8 +15,11 @@
     --transiton: all 0.33s linear;
     --border-color: rgba(16, 16, 16, 0.10);
     --secondary-color: #757575;
+    --animate-duration: 5000ms;
+    --animate-delay: 3s;
 
 }
+
 
 .header-area {
     position: relative;
