@@ -47,10 +47,13 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+
  }
 
  .hero-image{
     position: static;
+    width: 350px;
+    height: 350px;
  }
 
  marquee{

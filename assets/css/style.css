@@ -63,8 +63,12 @@
     color: white;
     cursor: pointer;
     transition: var(--transiton);
+  
 }
 
+.top-nav-link li:hover {
+    border-bottom: 1px solid var(--text-white);
+}
 
 
 .round {
@@ -119,6 +123,18 @@
 
 
 }
+.theme-btn-4 {
+    padding: 13px 22px;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: var(--bg-primary);
+    color: var(--text-white);
+    border: none;
+    border-radius: 8px;
+    transition: var(--transiton);
+
+
+}
 
 .theme-btn:hover {
     background-color: var(--text-primary);
@@ -126,9 +142,6 @@
 
 
 
-.top-nav-link li:hover {
-    border-bottom: 1px solid var(--text-white);
-}
 
 
 
@@ -292,10 +305,10 @@ html {
 
 .hero-image {
     position: absolute;
-    top: 100%;
+    top: 100px;
     left: 0;
-    /* width: 670px;
-    height: 700px; */
+    width: 670px;
+    height: 700px;
     z-index: 1;
 }
 
